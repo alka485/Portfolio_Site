@@ -37,3 +37,12 @@
 span {
     color: orangered;
 }
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    font-weight:500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
