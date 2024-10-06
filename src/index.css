@@ -19,6 +19,7 @@
     left: 0;
     width: 100%;
     padding: 35px 2%;
+    position:fixed;
 }
 
 .logo {
@@ -68,4 +69,54 @@ span {
     background-color: orangered;
     box-shadow: 0 0 25px orangered;
     color: white;
+}
+
+/* Home  */
+.home {
+    background:rgb(241, 241, 241);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 30px 12% 0;
+
+}  
+.home-content {
+    max-width: 800px;
+}  
+.home-content h3 {
+    font-size: 42px;
+}
+.home-content h1 {
+    font-size: 62px;
+    line-height: 1.2;
+}
+.home-content p {
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+
+.btn-box {
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+
+.btn-1 {
+    padding: 15px 28px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
 }
