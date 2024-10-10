@@ -150,8 +150,15 @@ span {
     justify-content: center;
     align-items: center;
     padding: 12% 8%;
-    /* gap: 10em; */
+    gap: 10em;
     /* background: black; */
+}
+
+.about-img img {
+    position: relative;
+    width: 550px;
+    box-shadow: 0 0 25px orangered;
+    border-radius: 50%;
 }
 
 
