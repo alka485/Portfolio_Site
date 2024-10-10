@@ -190,6 +190,23 @@ span {
 .contact-form form {
     max-width: 50em;
     margin: 1rem auto;
+   
+}
+
+.contact-form form .input-box {
+    display: block;
+    justify-content: center;
+}
+.contact-form form .input-box input ,
+.contact-form form textarea{
+    width: 100%;
+    padding: 1.5em;
+    font-size: 18px;
+    color: black;
+    background: rgb(241, 241, 241);
+    border-radius: 0.8rem;
+    margin: 1rem 0;
+    resize: none;
 }
 
 
