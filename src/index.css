@@ -151,7 +151,7 @@ span {
     align-items: center;
     padding: 12% 8%;
     gap: 10em;
-    /* background: black; */
+    background: black;
 }
 
 .about-img img {
@@ -159,6 +159,23 @@ span {
     width: 550px;
     box-shadow: 0 0 25px orangered;
     border-radius: 50%;
+}
+
+.about-content h2 {
+    text-align: left;
+    color:white;
+    font-size: 42px;
+}
+
+.about-content h3 {
+    font-size: 62px;
+    color: white;
+}
+
+.about-content p {
+    color: white;
+    font-size: 20px;
+    margin: 2em 0 3em;
 }
 
 
