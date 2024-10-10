@@ -142,3 +142,17 @@ span {
     /* height: 550px; */
     padding-top: 100px;
 }
+
+/* About Page */
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    /* gap: 10em; */
+    /* background: black; */
+}
+
+
+

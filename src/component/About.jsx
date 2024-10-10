@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-
+import image from '../assets/personal.jpg'
 const About = () => {
   return (
     <div className='about'>
       <div className="about-img">
-        <img src="../assets/personal.jpg" alt="" />
+        <img src= {image} alt="image" />
       </div>
       <div className="about-content">
         <h2 className="heading">About<span>Me</span></h2>
