@@ -190,6 +190,8 @@ span {
 .contact-form form {
     max-width: 50em;
     margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
    
 }
 
