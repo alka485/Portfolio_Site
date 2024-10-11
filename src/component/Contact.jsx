@@ -15,7 +15,7 @@ const Contact = () => {
                 <input type="text" placeholder='Subject'/>
             </div>
             <textarea name="" id="" rows='10' cols='30' placeholder='Your Message'></textarea>
-            <input type="submit" value='Submit' />
+            <input type="submit" value='Submit' className='btn-1' />
         </form>
     </div>
   )
