@@ -1,18 +1,18 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
     <div className='header'>
-      <a href="#" className='logo'>A<span>LK</span>A</a>
+      <a href="/" className='logo'>A<span>LK</span>A</a>
       <nav className='navbar'>
-        <a href="#" className='active'>Portfolio</a>
+        <Link to="/" className='active'>Portfolio</Link>
         <a href="#">Projects</a>
         <a href="#">Education</a>
-        <a href="#">About Me</a>
+        <Link to="/about">About Me</Link>
       </nav>
-      <a href="#" className='contact'>Contact Me</a>
+      <Link to="/contact" className='contact'>Contact Me</Link>
     </div>
   )
 }
