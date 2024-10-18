@@ -11,7 +11,7 @@ const About = () => {
         <h2 className="heading">About<span>Me</span></h2>
         {/* <h3>FullStack<span>Developer</span></h3> */}
         <p> I take pride in my keen attention to detail, ensuring my work is pixel-perfect. I am excited to bring my skills and experience to help businesses achieve their goals by creating a compelling and strong online presence</p>
-        <a href="#" className='btn-2'>Experience</a>
+        <a href="/projects" className='btn-2'>Experience</a>
       </div>
     </div>
   )

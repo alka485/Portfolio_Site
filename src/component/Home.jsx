@@ -11,8 +11,8 @@ const Home = () => {
             <h1>I'm<span> Alka Sah</span> a FullStack Web Developer</h1>
             <p>I am a skilled and passionate web developer with experience in creating visually appealing and user-friendly websites. I have a strong understanding of design and a keen eye for detail. I am proficient in HTML CSS JavaScript React MongoDB Express as well as design software such as AdobePhotoshop and Illustrator</p>
             <div className="btn-box">
-                <button className="btn-1">Hire Me</button>
-                <button className='btn-2'>Experience</button>
+                <button className="btn-1"><a href='/contact'>Hire Me</a></button>
+                <button className='btn-2'><a href='/projects'>Experience</a></button>
             </div>
       </div>
       <div className="img-box">
