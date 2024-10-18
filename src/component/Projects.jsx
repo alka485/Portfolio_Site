@@ -14,7 +14,7 @@ const Projects = () => {
                     <a href={project.github} target='blank'>GitHub</a>
                     <a href={project.deploy} target='blank'>Live Demo</a>
                 </div>
-                <p><strong>Skills</strong>{project.skills}</p>
+                <p><strong>Skills</strong> {project.skills}</p>
             </div>
         ))}
     </div>

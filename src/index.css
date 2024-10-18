@@ -151,7 +151,7 @@ span {
     align-items: center;
     padding: 12% 8%;
     gap: 10em;
-    background: black;
+    background: rgb(241, 241, 241);
 }
 
 .about-img img {
@@ -163,17 +163,17 @@ span {
 
 .about-content h2 {
     text-align: left;
-    color:white;
+    color:black;
     font-size: 42px;
 }
 
 .about-content h3 {
     font-size: 62px;
-    color: white;
+    color: black;
 }
 
 .about-content p {
-    color: white;
+    color: black;
     font-size: 20px;
     margin: 2em 0 3em;
 }
@@ -241,6 +241,10 @@ span {
 .project-link a:hover{
     text-decoration: underline;
     color: orangered;
+}
+.projects-content p {
+    font-size: 18px;
+    margin: 15px 0 20px;
 }
 /* Footer */
 .footer {
