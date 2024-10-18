@@ -210,6 +210,38 @@ span {
     margin: 1rem 0;
     resize: none;
 }
+/* Projects */
+.projects-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    padding: 10em;
+    gap: 2em;
+
+}
+.projects{
+    background-color: #f1f1f1;
+    padding: 1.5em;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.projects:hover{
+    transform: scale(1.05);
+}
+.project-image{
+    width: 100%;
+    border-radius: 8px;
+}
+.project-link a {
+    display: inline-block;
+    margin-right: 1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+.project-link a:hover{
+    text-decoration: underline;
+    color: orangered;
+}
 /* Footer */
 .footer {
     width: 100%;

@@ -7,6 +7,15 @@
         "deploy": "https://alka485.github.io/Work-Day-Scheduler/",
         "description": "This application uses third-party API and JavaScript to create a calendar-style scheduler allowing users to save events for each hour of the day.",
         "skills": "JavaScript | jQuery | API | DOM"
+    },
+    {
+        "id": 2,
+        "name": "Work Day Scheduler",
+        "image": "https://raw.githubusercontent.com/alka485/Work-Day-Scheduler/main/assets/workdayscheduler.gif",
+        "github": "https://github.com/alka485/Work-Day-Scheduler.git",
+        "deploy": "https://alka485.github.io/Work-Day-Scheduler/",
+        "description": "This application uses third-party API and JavaScript to create a calendar-style scheduler allowing users to save events for each hour of the day.",
+        "skills": "JavaScript | jQuery | API | DOM"
     }
     
    
