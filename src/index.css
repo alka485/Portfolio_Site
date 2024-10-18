@@ -241,7 +241,7 @@ span {
 }
 .project-link a:hover{
     text-decoration: underline;
-    color: orangered;
+    color: black;
 }
 .projects-content p {
     font-size: 18px;
