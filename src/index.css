@@ -227,6 +227,7 @@ span {
 }
 .projects:hover{
     transform: scale(1.05);
+    background-color: orangered;
 }
 .project-image{
     width: 100%;
