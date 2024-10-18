@@ -10,12 +10,21 @@
     },
     {
         "id": 2,
-        "name": "Work Day Scheduler",
+        "name": "Recipe Search Website",
         "image": "https://raw.githubusercontent.com/alka485/Work-Day-Scheduler/main/assets/workdayscheduler.gif",
         "github": "https://github.com/alka485/Work-Day-Scheduler.git",
-        "deploy": "https://alka485.github.io/Work-Day-Scheduler/",
+        "deploy": "https://recipesearch-1.onrender.com/",
         "description": "This application uses third-party API and JavaScript to create a calendar-style scheduler allowing users to save events for each hour of the day.",
         "skills": "JavaScript | jQuery | API | DOM"
+    },
+    {
+        "id": 3,
+        "name": "Weather App",
+        "image": "../assets/weatherforecast.gif",
+        "github": "https://github.com/alka485/SBA-308A-JavaScript-Web-Application.git",
+        "deploy": "https://alka485.github.io/SBA-308A-JavaScript-Web-Application/",
+        "description": "This is a simple and interactive weather forecasting application. It allows users to search for the current weather in any city, use their current location to get weather information, and toggle between metric and imperial units.",
+        "skills": "JavaScript | HTML5 | CSS3 | OpenWeatherMap API"
     }
     
    
