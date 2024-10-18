@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "Recipe Search Website",
-        "image": "https://raw.githubusercontent.com/alka485/RecipeSearch/main/src/assets/recipe.gif",
+        "image": "https://raw.githubusercontent.com/alka485/Portfolio_Site/main/src/assets/recipe.gif",
         "github": "https://github.com/alka485/RecipeSearch.git",
         "deploy": "https://recipesearch-1.onrender.com/",
         "description": "This application uses third-party API and JavaScript to create a calendar-style scheduler allowing users to save events for each hour of the day.",
