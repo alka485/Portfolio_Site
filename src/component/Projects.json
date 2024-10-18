@@ -15,7 +15,7 @@
         "github": "https://github.com/alka485/RecipeSearch.git",
         "deploy": "https://recipesearch-1.onrender.com/",
         "description": "A responsive web application that allows users to search for recipes by ingredients or dish names. The app fetches data from the Edamam Recipe API and displays a list of recipes that match the user's search query.",
-        "skills": "JavaScript | jQuery | API | DOM"
+        "skills": "React | Axios | Edamam Recipe API | StyledComponents"
     },
     {
         "id": 3,
