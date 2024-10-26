@@ -154,12 +154,41 @@ span {
     background: rgb(241, 241, 241);
 }
 
-.about-img img {
+/* .about-img img {
     position: relative;
     width: 550px;
     box-shadow: 0 0 25px orangered;
     border-radius: 50%;
-}
+} */
+ .about-icons {
+    position: relative;
+    /* box-shadow: 0 0 25px orangered; */
+    width: 550px;
+    font-size: 2.5em;
+    margin: 15px;
+    padding: 10px;
+    /* border: 1.7px solid orangered; */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+ }
+ .icon-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 40px;
+    background-color: orangered;
+    color: #000;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+
+ .about-icons Row {
+    border: 2px solid darkblue;
+ }
+
 
 .about-content h2 {
     text-align: left;

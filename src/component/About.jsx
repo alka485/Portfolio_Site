@@ -1,11 +1,30 @@
+/* eslint-disable react/jsx-key */
 /* eslint-disable no-unused-vars */
 import React from 'react'
 import image from '../assets/personal.jpg'
+import {Row, Col} from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Table} from 'react-bootstrap'
+
+import {
+  DiJavascript1,
+  DiReact,
+  DiNodejs,
+  DiMongodb,
+  DiHtml5,
+  DiCss3,
+  DiJqueryLogo,
+} from "react-icons/di";
 const About = () => {
   return (
     <div className='about'>
-      <div className="about-img">
-        <img src= {image} alt="image" />
+      <div className="about-icons">
+       <button className='icon-button'>Css<DiCss3/></button>
+       <button className='icon-button'>JavaScript<DiJavascript1/></button>
+       <button className='icon-button'>Html<DiHtml5/></button>
+       <button className='icon-button'>React<DiReact/></button>
+       {/* <button className='btn-1'>jQuery<DiReact/></button> */}
+
       </div>
       <div className="about-content">
         <h2 className="heading">About<span>Me</span></h2>
